@@ -14,7 +14,7 @@ fn draw_keyboard() {
             screen_width(),
             (screen_height() / 2.0) - (y_step / 2.0) - (y_step * (i as f32)),
             THICKNESS,
-            GRAY,
+            DARKGRAY,
         );
 
         draw_line(
@@ -23,7 +23,7 @@ fn draw_keyboard() {
             screen_width(),
             (screen_height() / 2.0) + (y_step / 2.0) + (y_step * (i as f32)),
             THICKNESS,
-            GRAY,
+            DARKGRAY,
         );
     }
 
@@ -34,7 +34,7 @@ fn draw_keyboard() {
             (screen_width() / 2.0) + (screen_width() * (i as f32) / 30.0),
             screen_height() / 2.0 - y_step - (y_step / 2.0),
             THICKNESS,
-            GRAY,
+            DARKGRAY,
         );
 
         draw_line(
@@ -43,7 +43,7 @@ fn draw_keyboard() {
             (screen_width() / 2.0) + (screen_width() * (i as f32) / 30.0),
             screen_height() / 2.0 - (y_step / 2.0),
             THICKNESS,
-            GRAY,
+            DARKGRAY,
         );
 
         draw_line(
@@ -52,7 +52,7 @@ fn draw_keyboard() {
             (screen_width() / 2.0) + (screen_width() * (i as f32) / 30.0),
             screen_height() / 2.0 + (y_step / 2.0),
             THICKNESS,
-            GRAY,
+            DARKGRAY,
         );
 
         draw_line(
@@ -61,7 +61,7 @@ fn draw_keyboard() {
             (screen_width() / 2.0) + (screen_width() * (i as f32) / 30.0),
             screen_height() / 2.0 + (y_step / 2.0),
             THICKNESS,
-            GRAY,
+            DARKGRAY,
         );
     }
 
@@ -71,7 +71,7 @@ fn draw_keyboard() {
         (screen_width() / 2.0) + (screen_width() * 13.0 / 30.0),
         screen_height() / 2.0 + (y_step / 2.0),
         THICKNESS,
-        LIGHTGRAY,
+        DARKGRAY,
     );
 
     draw_line(
@@ -80,7 +80,7 @@ fn draw_keyboard() {
         (screen_width() / 2.0) + (screen_width() * 13.0 / 30.0),
         screen_height() / 2.0 + (y_step / 2.0),
         THICKNESS,
-        LIGHTGRAY,
+        DARKGRAY,
     );
 
     draw_line(
@@ -89,7 +89,7 @@ fn draw_keyboard() {
         screen_width(),
         screen_height() / 2.0 + (y_step / 2.0),
         THICKNESS,
-        GRAY,
+        DARKGRAY,
     );
 }
 
